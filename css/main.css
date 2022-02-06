@@ -1,0 +1,91 @@
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background-primary: #ffffff;
+  --background-secondary: #f7fafc;
+  --background-light: #d5d5dc;
+  --background-dark: #17171b;
+  --black: #000000;
+  --white: #ffffff;
+  --grey-50: #f9fafb;
+  --grey-100: #f3f4f6;
+  --grey-200: #e5e7eb;
+  --grey-300: #d1d5db;
+  --grey-400: #9ca3af;
+  --grey-500: #6b7280;
+  --grey-600: #4b5563;
+  --grey-700: #374151;
+  --grey-800: #1f2937;
+  --grey-900: #111827;
+  --warning-50: #fffbeb;
+  --warning-100: #fef3c7;
+  --warning-200: #fde68a;
+  --warning-300: #fcd34d;
+  --warning-400: #fbbf24;
+  --warning-500: #f59e0b;
+  --warning-600: #d97706;
+  --warning-700: #b45309;
+  --warning-800: #92400e;
+  --warning-900: #78350f;
+  --success-50: #ecfdf5;
+  --success-100: #d1fae5;
+  --success-200: #a7f3d0;
+  --success-300: #6ee7b7;
+  --success-400: #34d399;
+  --success-500: #10b981;
+  --success-600: #059669;
+  --success-700: #047857;
+  --success-800: #065f46;
+  --success-900: #064e3b;
+  --error-50: #fef2f2;
+  --error-100: #fee2e2;
+  --error-200: #fecaca;
+  --error-300: #fca5a5;
+  --error-400: #f87171;
+  --error-500: #ef4444;
+  --error-600: #dc2626;
+  --error-700: #b91c1c;
+  --error-800: #991b1b;
+  --error-900: #7f1d1d;
+  --blue-50: #d5def8;
+  --blue-100: #abbdf0;
+  --blue-200: #829be9;
+  --blue-300: #587ae1;
+  --blue-400: #2e59da;
+  --blue-500: #2950c4;
+  --blue-600: #203e99;
+  --blue-700: #172d6d;
+  --blue-800: #0e1b41;
+  --blue-900: #050916;
+  --purple-50: #e5dbf9;
+  --purple-100: #cbb7f4;
+  --purple-200: #b294ee;
+  --purple-300: #9870e9;
+  --purple-400: #7e4ce3;
+  --purple-500: #7144cc;
+  --purple-600: #58359f;
+  --purple-700: #3f2672;
+  --purple-800: #261744;
+  --purple-900: #0d0817;
+  --gradient-color: linear-gradient(132.38deg, #2e59da -39.05%, #7e4ce3 88.71%);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+a,
+a:link,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
