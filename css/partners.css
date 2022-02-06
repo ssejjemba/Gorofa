@@ -1,0 +1,6 @@
+.partners--container {
+  display: flex;
+  flex-direction: row;
+  padding: 10rem 16.8rem;
+  justify-content: space-between;
+}
