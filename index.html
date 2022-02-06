@@ -17,7 +17,85 @@
       rel="stylesheet"
     />
     <link href="./css/main.css" rel="stylesheet" />
+    <link href="./css/hero.css" rel="stylesheet" />
     <title>Gorofa - Find your dream</title>
   </head>
-  <body></body>
+  <body>
+    <div class="hero--container">
+      <div class="navigation--container">
+        <div class="navigation--actions">
+          <div class="navigation--logo">
+            <img src="assets/logo.svg" alt="logo" class="logo--image" />
+            <h3 class="logo--text">Gorofa</h3>
+          </div>
+          <nav class="navigation--links">
+            <a href="#">Home</a>
+            <a href="#property">Property</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
+        <button class="cta button--primary">Login</button>
+      </div>
+      <main class="hero--content">
+        <article class="hero--article">
+          <h1 class="article--heading">
+            Find your dream property quickly and easily
+          </h1>
+          <p class="article--text">
+            Saving much time by finding the match one using our algorithm that
+            we designed
+          </p>
+          <div class="search--container">
+            <div class="filter--input">
+              <img src="./assets/map.svg" alt="map icon" />
+              <input type="text" placeholder="Search by location" />
+            </div>
+            <div class="filter--input">
+              <select id="filter_propety--type">
+                <option value="" disabled selected>Property type</option>
+                <option>2BHK</option>
+                <option>3BHK</option>
+                <option>4BHK</option>
+              </select>
+              <span class="select--label"></span>
+            </div>
+            <div class="filter--input">
+              <select id="filter_propety--price">
+                <option value="" disabled selected>Range price</option>
+                <option>$500 - $1,000</option>
+                <option>$1,000 - $5,000</option>
+                <option>$5,000 - $10,000</option>
+                <option>$10,000 - $100,000</option>
+                <option>More than $100,000</option>
+              </select>
+              <span class="select--label"></span>
+            </div>
+            <button class="search--button button--primary">Search Now</button>
+          </div>
+          <div class="archievments--container">
+            <div class="achievment">
+              <h5 class="achievment--number">450<span>+</span></h5>
+              <p class="achievment--name">Properties Sold</p>
+            </div>
+            <div class="achievment">
+              <h5 class="achievment--number">1200<span>+</span></h5>
+              <p class="achievment--name">Happy Customers</p>
+            </div>
+            <div class="achievment">
+              <h5 class="achievment--number">21<span>+</span></h5>
+              <p class="achievment--name">Awards Won</p>
+            </div>
+          </div>
+        </article>
+        <div class="hero--image">
+          <img
+            src="https://images.pexels.com/photos/534228/pexels-photo-534228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+            alt="gorofa project"
+          />
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
