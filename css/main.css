@@ -73,10 +73,14 @@ html {
   --gradient-color: linear-gradient(132.38deg, #2e59da -39.05%, #7e4ce3 88.71%);
 }
 
+body {
+  box-sizing: border-box;
+}
+
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
   border: none;
